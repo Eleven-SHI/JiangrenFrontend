@@ -1,0 +1,149 @@
+.card1-container{
+    background-image: url("../img/bg-4.png");
+    border-radius: 10px;  
+    width: 340px;
+    height: 245px;
+}
+
+.card1-tag{
+    background-color:#ff3333;
+    width: 18%;
+    min-height: 10px;
+    border-radius: 3px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+.card1-tag p {
+    padding: 2px 12px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+/* .card1-menu{
+    float: left;
+    width: 170px; 
+    margin-left: 170px;  
+    overflow: auto;
+} */
+.card1-menu{
+    position: relative;
+    top:0px;
+    left: 300px;
+}
+.card1-menu img{
+    /* position: relative;
+    left:130px; */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.card1-menu img:hover{
+    background-color: gray;
+}
+
+.card1-title{
+    position: absolute;
+    left: 40px;
+    top: 175px;
+
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.card1-desc{
+    position: absolute;
+    left: 40px;
+    top: 210px;
+
+    font-family:Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.card2-container{
+    background-image: url("../img/bg-2.png");
+    border-radius: 10px;
+    width: 736px;
+    height: 416px;
+    margin-top: 10px;
+}
+
+.card2-tag{
+    background-color:white;
+    width: 8%;
+    min-height: 10px;
+    border-radius: 3px;
+    position: relative;
+    left: 625px;
+    top: 45px;
+    /* align-items: center; */
+}
+
+.card2-tag p {
+    padding: 2px 12px;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.card2-ifo{
+    position: relative;
+    left: 8px;
+    top: 250px;
+
+    border-style: none none none solid;
+    border-color: cyan;
+    border-width: 5px;
+}
+
+.card2-date{
+    position: relative;
+    left: 48px;
+    /* top:250px; */
+
+    color:cyan;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.card2-title{
+    position: relative;
+    left: 48px;
+    top: 10px;
+
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.card2-button{
+    /* background-color:blue; */
+    background-image: linear-gradient(to right, rgb(60, 60, 226), rgb(36, 90, 238));
+    width: 15%;
+    min-height: 35px;
+    border-radius: 25px;
+    position: relative;
+    /* float: left; */
+    left: 575px;
+    top: 205px;
+    /* align-items: center; */
+}
+
+.card2-button p {
+    padding: 8px 12px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.card2-button:hover{
+    /* background-color: rgb(5, 5, 199); */
+    background-image: linear-gradient(to right, rgb(60, 60, 161), rgb(13, 57, 179));
+}
