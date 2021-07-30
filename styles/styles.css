@@ -1,3 +1,9 @@
+.card-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
 .card1{
     background-image: url("../img/bg-4.png");
     border-radius: 10px;  
@@ -69,9 +75,6 @@
 
 .card2{
     background-image: url("../img/bg-2.png");
-    /* background-repeat: no-repeat;
-    background-size: 100% 100%; */
-    /* border-radius: 10px;   */
     width: 736px;
     height: 416px;  
     display: flex;
@@ -101,7 +104,7 @@
     text-align: center;
 }
 
-.card2__ifo{
+.card2__info{
     border-style: none none none solid;
     border-color: rgb(0, 255, 179);
     border-width: 5px;
@@ -111,20 +114,24 @@
     justify-content: space-between;
 }
 
-.card2__subtitle{
+.card2__info > h2{
     color:rgb(0, 255, 179);
     font-family: sans-serif;
     font-size: 18px;
+    font-weight: 200;
+    margin: 0%;
 }
 
-.card2__title{
+.card2__info > h1{
     font-family: Arial, sans-serif;
     color: white;
     font-size: 50px;
+    font-weight: 200;
+    padding: 0%;
+    margin: 0%;
 }
 
 .card2__btn{
-    background-color:transparent;
     background-image: linear-gradient(to right, rgb(60, 60, 226), rgb(6, 89, 214));
     width: 18%;
     height: 38px;
@@ -139,5 +146,68 @@
 }
 
 .card2__btn:hover{
+    background-image: linear-gradient(to right, rgb(70, 60, 161), rgb(5, 63, 221));
+}
+
+.card3{
+    width: 340px;
+    box-shadow: 5px 10px 8px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card3-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card3__background1{
+    background-image: url("../img/bg-3.png");
+    height: 170px;  
+}
+.card3__background2{
+    /* position: relative;
+    left: 0px;
+    top: 0px; */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    /* z-index: 1; */
+}
+.card3-container > .card1__tag{
+    margin: 20px 20px 0px 240px;
+    width: 50px;
+    padding: 3px 7px 2px 7px;
+}
+
+.card3-container > h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 200;
+    margin: 30px 20px 0px 20px;
+}
+
+.card3-container > p{
+    font-family: Helvetica, sans-serif;
+    font-size: 105%;
+    line-height: 1.6;
+    margin: 20px 20px 0px 20px;
+}
+
+.card3__btn{
+    background-image: linear-gradient(to right, rgb(60, 60, 226), rgb(6, 89, 214));
+    width: 130px;
+    height: 38px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 105px;
+    margin-top: -180px;
+    
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.card3__btn:hover{
     background-image: linear-gradient(to right, rgb(70, 60, 161), rgb(5, 63, 221));
 }
